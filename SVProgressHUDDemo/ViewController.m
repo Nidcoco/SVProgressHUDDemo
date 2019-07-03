@@ -177,6 +177,7 @@
     }else if ([btn.titleLabel.text isEqualToString:@"封装2"]) {
         [self showTextHUDWithMessage:@"纯文字"];
     }else if ([btn.titleLabel.text isEqualToString:@"封装3"]) {
+        //block里面是提示完成后可以进行的操作
         [self showWarningHUDWithMessage:nil completion:nil];
     }else if ([btn.titleLabel.text isEqualToString:@"封装4"]) {
         [self showCompletionHUDWithMessage:@"请求成功" completion:^{

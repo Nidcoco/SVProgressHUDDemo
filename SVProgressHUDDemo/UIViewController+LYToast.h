@@ -28,7 +28,7 @@ typedef void(^__nullable completeAction)(void);
  */
 - (void)showTextHUDWithMessage:(nonnull NSString *)message;
 /*
- 警告提示
+ 失败提示
  */
 - (void)showWarningHUDWithMessage:(nullable NSString *)message completion:(completeAction)completion;
 /*

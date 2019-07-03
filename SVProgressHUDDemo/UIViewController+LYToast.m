@@ -2,8 +2,8 @@
 //  UIViewController+LYToast.m
 //  SVProgressHUDDemo
 //
-//  Created by chenjingwei on 2019/7/3.
-//  Copyright © 2019 李俊宇. All rights reserved.
+//  Created by levi on 2019/7/3.
+//  Copyright © 2019 levi. All rights reserved.
 //
 
 #import "UIViewController+LYToast.h"
