@@ -14,6 +14,7 @@
 		0A3ED2C22184D1BA0081489E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3ED2C02184D1BA0081489E /* LaunchScreen.storyboard */; };
 		0A3ED2C52184D1BA0081489E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3ED2C42184D1BA0081489E /* main.m */; };
 		A29B927984E4F5EA7A3EEEB8 /* libPods-SVProgressHUDDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7EA7A28387BC4A32313444 /* libPods-SVProgressHUDDemo.a */; };
+		C85F6DAB22CC839900076272 /* UIViewController+LYToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C85F6DAA22CC839900076272 /* UIViewController+LYToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		0BD3EBA7DAED611155251A3B /* Pods-SVProgressHUDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVProgressHUDDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVProgressHUDDemo/Pods-SVProgressHUDDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9A7EA7A28387BC4A32313444 /* libPods-SVProgressHUDDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SVProgressHUDDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40186756102C48DACDCF146 /* Pods-SVProgressHUDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVProgressHUDDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVProgressHUDDemo/Pods-SVProgressHUDDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C85F6DA922CC839900076272 /* UIViewController+LYToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LYToast.h"; sourceTree = "<group>"; };
+		C85F6DAA22CC839900076272 /* UIViewController+LYToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LYToast.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 				0A3ED2C02184D1BA0081489E /* LaunchScreen.storyboard */,
 				0A3ED2C32184D1BA0081489E /* Info.plist */,
 				0A3ED2C42184D1BA0081489E /* main.m */,
+				C85F6DA922CC839900076272 /* UIViewController+LYToast.h */,
+				C85F6DAA22CC839900076272 /* UIViewController+LYToast.m */,
 			);
 			path = SVProgressHUDDemo;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A3ED2BA2184D1B90081489E /* ViewController.m in Sources */,
+				C85F6DAB22CC839900076272 /* UIViewController+LYToast.m in Sources */,
 				0A3ED2C52184D1BA0081489E /* main.m in Sources */,
 				0A3ED2B72184D1B90081489E /* AppDelegate.m in Sources */,
 			);
